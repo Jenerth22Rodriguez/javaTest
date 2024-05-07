@@ -1,18 +1,13 @@
 package JenerthJavac.javaTestDemo.utilities;
+
+import org.junit.Assert;
+import org.junit.Test;
+
 public class StringUtilTest {
-    public static void main(String[] args) {
+        @Test
+        public void testRepeat(){
 
-      String result =  StringUtil.repeat("Hello", 3);
-
-      assertEquals(StringUtil.repeat("Hello", 3), "HelloHelloHello");
-
-      assertEquals(result, "Hello");
-    }
-
-    private static void assertEquals(String result, String helloHelloHello) {
-
-        if(!result.equals("HelloHelloHello")) {
-            throw new RuntimeException("Error encounter");
-        }
+      Assert.assertEquals(StringUtil.repeat("Hello", 3), "HelloHelloHello");
+      Assert.assertEquals(StringUtil.repeat("Hello", 1), "Hello");
     }
 }
