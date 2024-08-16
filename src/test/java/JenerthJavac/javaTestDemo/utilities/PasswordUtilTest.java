@@ -3,6 +3,7 @@ package JenerthJavac.javaTestDemo.utilities;
 import junit.framework.TestCase;
 import org.junit.Test;
 import static JenerthJavac.javaTestDemo.utilities.PasswordUtil.SecurityLevel.*;
+
 //import static JenerthJavac.javaTestDemo.utilities.PasswordUtil.SecurityLevel.WEAK;
 //import static JenerthJavac.javaTestDemo.utilities.PasswordUtil.SecurityLevel.MEDIUM;
 //import static JenerthJavac.javaTestDemo.utilities.PasswordUtil.SecurityLevel.STRONG;
